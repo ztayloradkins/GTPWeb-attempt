@@ -1,0 +1,377 @@
+/* ------------------------------------ */
+/* HTML */
+/* ------------------------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family: 'Nato', 'Arial', sans-serif;
+}
+
+img {
+    overflow: hidden;
+}
+
+section {
+    padding: 80px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ------ HEADINGS ------ */
+
+h1, h2, h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #01c701;
+    content: " ";
+    width: 100px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* ------------------------------------ */
+/* HEADER */
+/* ------------------------------------ */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/b3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+header img {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 20px 20px;
+}
+
+.nav-list {
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 75%
+}
+
+.opening {
+    color: white;
+    font-size: 225%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-47%, -50%);
+    width: 75%;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+    margin-right: 10px;
+}
+
+/* ------ CONTRIBUTE BUTTON ------ */
+
+.contribute-btn {
+    background-color: #00ba00;
+    border: 1px solid #00ba00;
+    border-radius: 200px;
+    padding: 10px 30px;
+}
+
+.contribute-btn:hover,
+.contribute-btn:active {
+    background-color: #008900;
+    padding: 10px 30px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+/* ---------------------------------------------------------- */
+/* INDEX */
+/* ---------------------------------------------------------- */
+
+
+/* ------------------------------------ */
+/* INTRODUCTION */
+/* ------------------------------------ */
+
+.intro p {
+    text-align: center;
+    width: 60%;
+    padding-left: 20%;
+    margin-bottom: 70px;
+    line-height: 150%;
+    letter-spacing: 1px;
+}
+
+/* ------------------------------------ */
+/* ANNOUNCEMENTS */
+/* ------------------------------------ */
+
+.announcements {
+    margin-bottom: 30px;
+    background-color: #eee;
+}
+
+.announcements-box {
+    width: 49%;
+    float: left;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.announcements-box img {
+    float: right;
+    width: 90%;
+    height: 700px;
+}
+
+.announcements-box2 {
+    float: right;
+    width: 46%;
+    padding: 0 40px 0 10px;
+}
+
+.announcements-box2 p {
+    font-size: 100%;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.date {
+    float: left;
+    margin-right: 30px;
+    border: solid 2px #777;
+    height: 60px;
+    text-align: center;
+    padding: 20px 5px 0;
+}
+
+/* ------------------------------------ */
+/* WHAT WE DO */
+/* ------------------------------------ */
+
+.doing-container {
+    display: block;
+    margin: auto;
+}
+
+.doing {
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+}
+
+.doing p {
+    text-align: center;
+}
+
+.doing img {
+    width: 80%;
+    margin: 0 auto 20px auto;
+    padding: 0 10%;
+}
+
+/* ------------------------------------ */
+/* NOTIFICATIONS */
+/* ------------------------------------ */
+
+.input-format {
+    padding-bottom: 15px;
+}
+
+input {
+    margin-right; 
+    float: right;
+}
+ 
+
+
+/* ---------------------------------------------------------- */
+/* BLOG */
+/* ---------------------------------------------------------- */
+
+/* ----- MAIN POST ----- */
+
+.main-post {
+    background-image: url(img/b3.jpg);
+    width: 70%;
+    height: 400px;
+    padding-top: 60px;
+    margin: 60px auto 100px;
+}
+
+.main-post h2 a {
+    color: white;
+    font-size: 120%;
+}
+
+.main-post h2 {
+    margin-bottom: 0;
+}
+
+.main-post h2 a:hover,
+.main-post h2 a:active {
+    color: aqua;
+    font-weight: bold; 
+    transition: color 0.2s, font-weight 0.2s;
+}
+
+.main-post p {
+    color: white;
+    text-align: center;
+}
+
+.main-post h2:after {
+    background-color: transparent;
+}
+
+/* ----- PREVIOUS POSTS ----- */
+
+.previous-posts {
+    width: 60%;
+    float: left;
+    margin: 0 0 30px 30px;
+    border: 2px solid black;
+    
+}
+
+.previous-posts h2 {
+    margin-top: 0;
+}
+
+.previous-posts h3 a {
+    color: black;
+}
+
+.previous-posts h3 a:hover,
+.previous-posts h3 a:active {
+    color: aqua;
+    font-weight: bold; 
+    transition: color 0.2s, font-weight 0.2s;
+}
+
+.previous-posts h3 {
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+.previous-posts p {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 80%;
+}
+
+/* ----- CATERGORIES ----- */
+
+.catergories {
+    width: 30%;
+    float: right;
+    margin-right: 30px;
+    border: 2px solid black;
+    background-color: #bcbcbc
+}
+
+.catergories h3 {
+    padding-bottom: 30px;
+}
+
+.catergories div {
+    text-align: center;
+    margin: 10px 0 30px 0;
+    margin-left: -30px;
+}
+
+.catergories div a {
+    color: black;
+}
+
+/* ---------------------------------------------------------- */
+/* DOCS */
+/* ---------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------- */
+/* CONTRIBUTE */
+/* ---------------------------------------------------------- */
+
+.what-you-contribute-to p {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form {
+    margin: 0 30px;
+}
+
+form legend {
+    text-align: center;
+    font-size: 125%;
+    padding: 20px;
+}
+
+form label {
+    font-size: 80%;
+    margin: 5px:
+}
+
+input[type="text"],
+input[type="email"] {
+    height: 25px;
+    width: 30%;
+}
+
+label.your-email {
+    margin-left: 10%;
+}
+
+a.input[type="submit"] {
+  margin: 0 auto;  
+}
